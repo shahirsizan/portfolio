@@ -2,13 +2,13 @@
 
 .container {
 	color: var(--color-text);
-	margin-top: 80px;
+	margin-top: 10%;
 	background-color: var(--color-secondary);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	width: 100vw;
-	padding: 40px 10%;
+	padding: 5% 5%;
 	gap: 7px;
 }
 
@@ -16,7 +16,7 @@
 	align-self: center;
 }
 
-.text h2 {
+.text {
 	font-size: 40px;
 	font-weight: 500;
 	letter-spacing: 4px;
@@ -50,10 +50,31 @@
 	letter-spacing: 1.2px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1000px) {
 	.container {
-		flex-direction: column;
 		gap: 23px;
+		flex-direction: column;
+	}
+
+	.link {
+		font-size: 20px;
+	}
+	.link a {
+		font-size: 20px;
+	}
+
+	.text h2 {
+		font-size: 40px;
+		font-weight: 700;
+		letter-spacing: 1.75px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.container {
+		margin-top: 30px;
+		gap: 23px;
+		flex-direction: column;
 	}
 
 	.text {
@@ -62,7 +83,9 @@
 		align-items: center;
 	}
 
-	.links {
-		align-items: center;
+	.text h2 {
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: 1.75px;
 	}
 }

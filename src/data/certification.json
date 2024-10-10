@@ -1,31 +1,31 @@
 [
 	{
 		"name": "Software Engineering",
-		"organisation": "HKUST",
+		"organisation": "by HKUST",
 		"imageSrc": "certifications/hkust2.png",
 		"link": "https://coursera.org/verify/specialization/N574PGMHZP6K"
 	},
 	{
-		"name": "Introduction to Agile Development and Scrum",
-		"organisation": "IBM",
+		"name": "Agile Development and Scrum",
+		"organisation": "by IBM",
 		"imageSrc": "certifications/ibm.png",
 		"link": "https://coursera.org/verify/897XC9Q87PEA"
 	},
 	{
 		"name": "HTML and CSS in depth",
-		"organisation": "Meta",
+		"organisation": "by Meta",
 		"imageSrc": "certifications/meta.png",
 		"link": "https://coursera.org/verify/6DA46QCW6UL3"
 	},
 	{
 		"name": "React Basics",
-		"organisation": "Meta",
+		"organisation": "by Meta",
 		"imageSrc": "certifications/meta.png",
 		"link": "https://coursera.org/verify/6BFM33TRVXVA"
 	},
 	{
 		"name": "Introduction to Databases",
-		"organisation": "Meta",
+		"organisation": "by Meta",
 		"imageSrc": "certifications/meta.png",
 		"link": "https://coursera.org/verify/FER9WX7BSNDY"
 	}
