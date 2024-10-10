@@ -4,7 +4,6 @@ import { Experience } from "./components/Experience/Experience";
 import { Certifications } from "./components/Certifications/Certifications";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Projects } from "./components/Projects/Projects";
 
 function App() {
 	return (
@@ -13,7 +12,6 @@ function App() {
 			<Hero />
 			<Experience />
 			<Certifications />
-			{/* <Projects /> */}
 			<Contact />
 		</div>
 	);
