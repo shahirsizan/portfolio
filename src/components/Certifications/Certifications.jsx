@@ -13,23 +13,17 @@ export const Certifications = () => {
 					{certifications.map((certification, id) => {
 						return (
 							<li key={id} className={styles.historyItem}>
-								<img
-									src={getImageUrl(certification.imageSrc)}
-								/>
-								<div className={styles.historyItemDetails}>
-									<h3>{`${certification.name} `}</h3>
-									<h4>{`${certification.organisation}`}</h4>
-									<br />
-									<a
-										href={`${certification.link}`}
-										style={{
-											textDecoration: "none",
-											color: "blue",
-										}}
-									>
-										Verify
-									</a>
-								</div>
+								<a href={`${certification.link}`}>
+									<img
+										src={getImageUrl(
+											certification.imageSrc
+										)}
+									/>
+									<div className={styles.historyItemDetails}>
+										<h3>{`${certification.name} `}</h3>
+										<h4>{`${certification.organisation}`}</h4>
+									</div>
+								</a>
 							</li>
 						);
 					})}

@@ -7,8 +7,8 @@
 	justify-content: space-between;
 	margin-top: 49px;
 	z-index: 10;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .content {
@@ -21,8 +21,8 @@
 
 .title {
 	white-space: nowrap;
-	font-size: 72px;
-	font-weight: 900;
+	font-size: 55px;
+	font-weight: 800;
 	margin-bottom: 33px;
 	font-family: var(--font-roboto);
 	background: linear-gradient(
@@ -35,7 +35,7 @@
 }
 
 .description {
-	font-size: 30px;
+	font-size: 28px;
 	font-family: var(--font-roboto);
 	margin-bottom: 52px;
 }
@@ -107,13 +107,13 @@
 	}
 
 	.title {
-		font-size: 35px;
+		font-size: 45px;
 		margin-top: 20px;
 		margin-bottom: 15px;
 	}
 
 	.description {
-		font-size: 15px;
+		font-size: 20px;
 		text-align: center;
 		margin-bottom: 20px;
 	}
@@ -128,13 +128,13 @@
 		margin-top: 10%;
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-bottom: 20%;
+		margin-bottom: 15%;
 	}
 	.content {
 		align-items: center;
 	}
 	.title {
-		font-size: 20px;
+		font-size: 25px;
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}

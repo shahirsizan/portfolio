@@ -1,10 +1,10 @@
 [
 	{
-		"title": "JavaScript",
+		"title": "JS",
 		"imageSrc": "skills/js.png"
 	},
 	{
-		"title": "TailwindCSS",
+		"title": "Tailwind",
 		"imageSrc": "skills/tailwind.png"
 	},
 	{
@@ -15,16 +15,13 @@
 		"title": "React",
 		"imageSrc": "skills/react.png"
 	},
-	{
-		"title": "Node",
-		"imageSrc": "skills/node.png"
-	},
+
 	{
 		"title": "Express",
 		"imageSrc": "skills/express3.png"
 	},
 	{
-		"title": "PostgreSQL",
+		"title": "Postgres",
 		"imageSrc": "skills/postgresql.png"
 	},
 	{

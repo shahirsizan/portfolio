@@ -2,10 +2,10 @@
 
 .container {
 	color: var(--color-text);
-	margin-top: 79px;
-	margin-left: 10%;
-	margin-right: 10%;
-	z-index: 10;
+	margin-top: 70px;
+	margin-left: 5%;
+	margin-right: 5%;
+	/* z-index: 10; */
 }
 
 .title {
@@ -21,7 +21,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin-top: 14px;
+	margin-top: 30px;
 }
 
 .skills {
@@ -40,17 +40,19 @@
 }
 
 .skillImageContainer {
-	/* background-color: azure; */
-	border-radius: 100%;
+	background-color: azure;
+	border-radius: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 200px;
-	height: 200px;
+	width: 6rem;
+	height: 6rem;
 }
 
 .skillImageContainer img {
-	width: 75px;
+	width: 4rem;
+	height: 4rem;
+	object-fit: contain;
 }
 
 .skill p {
@@ -129,6 +131,22 @@
 	}
 
 	.skillImageContainer {
+		background-color: azure;
+		border-radius: 40%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 5rem;
+		height: 5rem;
+	}
+
+	.skillImageContainer img {
+		width: 3rem;
+		height: 3rem;
+		object-fit: contain;
+	}
+
+	/* .skillImageContainer {
 		width: 85px;
 		height: 85px;
 		background-color: rgb(255, 255, 255);
@@ -136,7 +154,7 @@
 
 	.skillImageContainer img {
 		width: 50px;
-	}
+	} */
 
 	.skill p {
 		font-size: 15px;
@@ -175,13 +193,29 @@
 	}
 
 	.skillImageContainer {
+		background-color: azure;
+		border-radius: 40%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.skillImageContainer img {
+		width: 2rem;
+		height: 2rem;
+		object-fit: contain;
+	}
+
+	/* .skillImageContainer {
 		width: 60px;
 		height: 60px;
 	}
 
 	.skillImageContainer img {
 		width: 50px;
-	}
+	} */
 
 	.skill p {
 		font-size: 15px;
