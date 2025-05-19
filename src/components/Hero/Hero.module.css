@@ -23,7 +23,7 @@
 	white-space: nowrap;
 	font-size: 55px;
 	font-weight: 800;
-	margin-bottom: 33px;
+	margin-bottom: 45px;
 	font-family: var(--font-roboto);
 	background: linear-gradient(
 		90deg,
@@ -36,8 +36,8 @@
 
 .description {
 	font-size: 28px;
-	font-family: var(--font-roboto);
-	margin-bottom: 52px;
+	align-self: flex-start;
+	margin-bottom: 15px;
 }
 
 .contactBtn {
@@ -52,7 +52,7 @@
 }
 
 .heroImg {
-	width: 70%;
+	width: 50%;
 	z-index: 1;
 }
 
@@ -109,13 +109,13 @@
 	.title {
 		font-size: 45px;
 		margin-top: 20px;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 	}
 
 	.description {
 		font-size: 20px;
-		text-align: center;
-		margin-bottom: 20px;
+		align-self: flex-start;
+		margin-bottom: 10px;
 	}
 	.heroImg {
 		width: 50%;
@@ -125,7 +125,7 @@
 @media screen and (max-width: 500px) {
 	.container {
 		flex-direction: column-reverse;
-		margin-top: 10%;
+		margin-top: 10px;
 		margin-left: 5%;
 		margin-right: 5%;
 		margin-bottom: 15%;
@@ -140,11 +140,13 @@
 	}
 
 	.description {
+		/* display: flex; */
+		align-self: center;
 		font-size: 15px;
-		text-align: center;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
+
 	.heroImg {
-		width: 90%;
+		width: 70%;
 	}
 }

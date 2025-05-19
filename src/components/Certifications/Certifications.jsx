@@ -13,7 +13,10 @@ export const Certifications = () => {
 					{certifications.map((certification, id) => {
 						return (
 							<li key={id} className={styles.historyItem}>
-								<a href={`${certification.link}`}>
+								<a
+									href={`${certification.link}`}
+									target="_blank"
+								>
 									<img
 										src={getImageUrl(
 											certification.imageSrc

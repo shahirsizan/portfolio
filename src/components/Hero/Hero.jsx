@@ -8,9 +8,10 @@ export const Hero = () => {
 		<section className={styles.container}>
 			<div className={styles.content}>
 				<h1 className={styles.title}>Shahir Adil Sizan</h1>
+
+				<p className={styles.description}>CS undergraduate</p>
 				<p className={styles.description}>
-					A CS Undergraduate experienced in both frontend and backend
-					web technologies.
+					Aspiring full-stack developer
 				</p>
 			</div>
 			<img

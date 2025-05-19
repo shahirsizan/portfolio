@@ -4,18 +4,13 @@
 		"imageSrc": "skills/js.png"
 	},
 	{
-		"title": "Tailwind",
-		"imageSrc": "skills/tailwind.png"
-	},
-	{
-		"title": "SASS",
-		"imageSrc": "skills/sass.png"
-	},
-	{
 		"title": "React",
 		"imageSrc": "skills/react.png"
 	},
-
+	{
+		"title": "Tailwind",
+		"imageSrc": "skills/tailwind.png"
+	},
 	{
 		"title": "Express",
 		"imageSrc": "skills/express3.png"
@@ -29,7 +24,7 @@
 		"imageSrc": "skills/mongodb.png"
 	},
 	{
-		"title": "RTL",
-		"imageSrc": "skills/rtl.png"
+		"title": "PHP",
+		"imageSrc": "skills/php.png"
 	}
 ]

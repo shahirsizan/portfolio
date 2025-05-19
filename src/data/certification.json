@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Bachelor of Science in CSE (result pending)",
+		"organisation": "by CUET",
+		"imageSrc": "certifications/cuet.png",
+		"link": "https://cuet.ac.bd"
+	},
+	{
 		"name": "Software Engineering",
 		"organisation": "by HKUST",
 		"imageSrc": "certifications/hkust2.png",
