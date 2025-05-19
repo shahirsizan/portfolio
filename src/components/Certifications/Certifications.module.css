@@ -10,8 +10,8 @@
 .title {
 	text-align: center;
 	color: var(--color-text);
-	font-size: 50px;
-	font-weight: 700;
+	font-size: 45px;
+	font-weight: 600;
 	letter-spacing: 1.75px;
 	text-transform: uppercase;
 }
@@ -92,7 +92,7 @@ li a {
 		margin-bottom: 10%;
 	}
 	.title {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	h2 {
 		text-align: center;

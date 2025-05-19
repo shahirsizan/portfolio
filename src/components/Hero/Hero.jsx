@@ -14,11 +14,11 @@ export const Hero = () => {
 					Aspiring full-stack developer
 				</p>
 			</div>
-			<img
+			{/* <img
 				src={getImageUrl("hero/bg-removed_IMG_4377.png")}
 				alt="Hero image of me"
 				className={styles.heroImg}
-			/>
+			/> */}
 			<div className={styles.topBlur} />
 		</section>
 	);

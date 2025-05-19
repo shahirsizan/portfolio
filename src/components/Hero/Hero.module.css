@@ -4,11 +4,12 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	margin-top: 49px;
+	justify-content: center;
+	margin-top: 80px;
 	z-index: 10;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-bottom: 90px;
 }
 
 .content {
@@ -23,7 +24,7 @@
 	white-space: nowrap;
 	font-size: 55px;
 	font-weight: 800;
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 	font-family: var(--font-roboto);
 	background: linear-gradient(
 		90deg,
@@ -36,7 +37,7 @@
 
 .description {
 	font-size: 28px;
-	align-self: flex-start;
+	align-self: center;
 	margin-bottom: 15px;
 }
 
@@ -70,9 +71,9 @@
 
 .topBlur {
 	position: absolute;
-	width: 50vw;
-	height: 50vw;
-	min-width: 350px;
+	width: 40vw;
+	height: 40vw;
+	min-width: 300px;
 	/* min-width: 350px; */
 	top: -340px;
 	left: -4vw;
@@ -114,7 +115,6 @@
 
 	.description {
 		font-size: 20px;
-		align-self: flex-start;
 		margin-bottom: 10px;
 	}
 	.heroImg {
@@ -134,14 +134,13 @@
 		align-items: center;
 	}
 	.title {
-		font-size: 25px;
+		font-size: 30px;
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
 
 	.description {
 		/* display: flex; */
-		align-self: center;
 		font-size: 15px;
 		margin-bottom: 10px;
 	}
